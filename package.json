@@ -1,0 +1,20 @@
+{
+  "name": "http-cats-bot",
+  "version": "1.0.0",
+  "description": "A bot for Telegram using Node.JS served by the  HTTP Cats API (http.cat)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "httpcats"
+  ],
+  "author": "Rafael Pradella",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "request": "^2.81.0",
+    "telegram-node-bot": "^4.0.5"
+  }
+}
