@@ -4,7 +4,8 @@
   "description": "A bot for Telegram using Node.JS served by the  HTTP Cats API (http.cat)",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [
     "telegram",
