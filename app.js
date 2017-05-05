@@ -5,7 +5,7 @@ const key = require('./config/key.js');
 const BotController = require('./controller/botController.js');
 const OtherwiseController = require('./controller/otherwiseController.js');
 
-const chatbot = new TG.Telegram(key, {workers: 1});
+const chatbot = new TG.Telegram(key);
 chatbot.router
 	.when(
 		new TG.RegexpCommand(/([0-9]{3})/, 'status'), new BotController()
